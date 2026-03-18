@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Hover Effects & Transitions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            gap: 30px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        /* --- Step 4 & 5: Button Hover & Transition --- */
+        .btn {
+            background-color: #3eb4c1; /* Initial color */
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.4s ease; /* Smooth transition */
+        }
+
+        .btn:hover {
+            background-color: #32a852; /* Changes to green on hover */
+        }
+
+        /* --- Step 4 & 5: Image Hover & Transition --- */
+        .flower-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.5s ease; /* Smooth rotation */
+        }
+
+        .flower-img:hover {
+            transform: rotate(-10deg); /* Tilts the image */
+        }
+
+        /* --- Step 4 & 5: Card Hover & Transition --- */
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-15px); /* Moves upward */
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2); /* Deepens shadow */
+        }
+
+        .card h3 { margin: 0 0 10px 0; font-size: 18px; }
+        .card p { font-size: 14px; color: #555; margin: 0; }
+
+    </style>
+</head>
+<body>
+
+    <h1>CSS Hover Effects & Transitions</h1>
+
+    <button class="btn">Hover Me</button>
+
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" 
+         alt="Flower" class="flower-img">
+
+    <div class="card">
+        <h3>Hover Card</h3>
+        <p>This card moves upward when hovered.</p>
+    </div>
+
+</body>
+</html>
