@@ -18,3 +18,6 @@ Click Here to get into the webpage :
 
 6. Navbar - <a href="https://spganesh-23.github.io/FrontEndDev/navbar.html">Click Here</a>
 <img width="1918" height="933" alt="Screenshot 2026-02-25 090547" src="https://github.com/user-attachments/assets/5fbfad54-90be-4f9f-82f9-c95c31fda566" />
+
+7. Hover - <a href="https://spganesh-23.github.io/FrontEndDev/Prog8.html">Click Here</a>
+<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/1db73294-ecde-4434-8888-5c8b2dc6cc3e" />
