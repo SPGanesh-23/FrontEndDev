@@ -19,5 +19,8 @@ Click Here to get into the webpage :
 6. Navbar - <a href="https://spganesh-23.github.io/FrontEndDev/navbar.html">Click Here</a>
 <img width="1918" height="933" alt="Screenshot 2026-02-25 090547" src="https://github.com/user-attachments/assets/5fbfad54-90be-4f9f-82f9-c95c31fda566" />
 
-7. Hover - <a href="https://spganesh-23.github.io/FrontEndDev/Prog8.html">Click Here</a>
+7. Hover - <a href="https://spganesh-23.github.io/FrontEndDev/Hover.html">Click Here</a>
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/1db73294-ecde-4434-8888-5c8b2dc6cc3e" />
+
+8. Validation - <a href="https://spganesh-23.github.io/FrontEndDev/validation.html">Click Here</a>
+<img width="1896" height="930" alt="Screenshot 2026-03-26 112116" src="https://github.com/user-attachments/assets/99a06329-aca2-4258-83c9-7158f0b4c448" />
