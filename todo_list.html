@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <style>
+    body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+
+    .container {
+    width: 420px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    }
+
+    h2 {
+    margin-bottom: 20px;
+    color: #333;
+    }
+
+    input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+    }
+
+    input:focus {
+    border-color: #4facfe;
+    box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+    }
+
+    button {
+    padding: 10px 15px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 5px;
+    }
+
+    button:hover {
+    background: #00c6ff;
+    transform: scale(1.05);
+    }
+
+    ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    }
+
+    li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    }
+
+    li:hover {
+    background: #e6f2ff;
+    transform: translateX(5px);
+    }
+
+    .delete {
+    background: #ff4d4d;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+    }
+
+    .delete:hover {
+    background: #ff1a1a;
+    transform: scale(1.1);
+    }
+    </style>
+    <script>
+      function addTask() {
+        let input = document.getElementById("task");
+        let task = input.value;
+        if (task === "") {
+          alert("Enter a task");
+          return;
+        }
+        let li = document.createElement("li");
+        li.textContent = task;
+        let delBtn = document.createElement("button");
+        delBtn.textContent = "Delete";
+        delBtn.className = "delete";
+        delBtn.onclick = function () {
+          li.remove();
+        };
+        li.appendChild(delBtn);
+        document.getElementById("list").appendChild(li);
+        input.value = "";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>To-Do List</h2>
+      <input type="text" id="task" placeholder="Enter task" />
+      <button onclick="addTask()">Add</button>
+      <ul id="list"></ul>
+    </div>
+  </body>
+</html>

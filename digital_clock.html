@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Digital Clock</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        color: #00ffff;
+      }
+
+      .clock {
+        background: rgba(0, 0, 0, 0.8);
+        padding: 35px 60px;
+        border-radius: 15px;
+        font-size: 48px;
+        letter-spacing: 4px;
+        text-align: center;
+        border: 2px solid cyan;
+        box-shadow:
+          0 0 10px cyan,
+          0 0 20px cyan,
+          0 0 40px cyan;
+        transition: 0.3s ease;
+      }
+
+      .clock:hover {
+        transform: scale(1.05);
+        box-shadow:
+          0 0 20px cyan,
+          0 0 40px cyan,
+          0 0 60px cyan;
+      }
+
+      div {
+        text-align: center;
+      }
+    </style>
+    <script>
+      function showTime() {
+        let date = new Date();
+        let h = date.getHours();
+        let m = date.getMinutes();
+        let s = date.getSeconds();
+        h = h < 10 ? "0" + h : h;
+        m = m < 10 ? "0" + m : m;
+        s = s < 10 ? "0" + s : s;
+        let time = h + ":" + m + ":" + s;
+        document.getElementById("clock").innerHTML = time;
+      }
+      setInterval(showTime, 1000);
+    </script>
+  </head>
+  <body onload="showTime()">
+    <div>
+      <h2>Digital Clock</h2>
+      <div class="clock" id="clock"></div>
+    </div>
+  </body>
+</html>
