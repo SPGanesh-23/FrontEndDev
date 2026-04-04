@@ -24,3 +24,13 @@ Click Here to get into the webpage :
 
 8. Validation - <a href="https://spganesh-23.github.io/FrontEndDev/validation.html">Click Here</a>
 <img width="1896" height="930" alt="Screenshot 2026-03-26 112116" src="https://github.com/user-attachments/assets/99a06329-aca2-4258-83c9-7158f0b4c448" />
+
+9. Calculator - <a href="https://spganesh-23.github.io/FrontEndDev/calculator.html">Click Here</a>
+<img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/a03544c9-1628-4ae6-b757-e73a30dc0e20" />
+
+10. Digital Clock - <a href="https://spganesh-23.github.io/FrontEndDev/digital_clock.html">Click Here</a>
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/e457a04d-8665-4e61-aee9-139c55f789b4" />
+
+11. To-Do List - <a href="https://spganesh-23.github.io/FrontEndDev/todo_list.html">Click Here</a>
+<img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/2b3ca6fe-0300-4652-9729-b92af19abc71" />
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/333e2612-466f-4550-b526-6660aca5b54c" />
