@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Events with CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .box {
+            width: 300px;
+            height: 120px;
+            background-color: lightblue;
+            margin: auto;
+            line-height: 120px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        input[type="text"] {
+            width: 250px;
+            padding: 10px;
+            border: 2px solid #555;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            color: #444;
+            font-weight: bold;
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+    </style>
+
+    <script>
+        // onmouseover
+        function mouseOverFunction() {
+            document.getElementById("mousemsg").innerHTML =
+                "Mouse Over Event Triggered";
+        }
+
+        // onmouseout
+        function mouseOutFunction() {
+            document.getElementById("mousemsg").innerHTML =
+                "Mouse Out Event Triggered";
+        }
+
+        // onkeydown
+        function keyDownFunction() {
+            document.getElementById("keymsg").innerHTML =
+                "Key Down Event Triggered";
+        }
+
+        // onkeypress
+        function keyPressFunction() {
+            document.getElementById("keymsg").innerHTML =
+                "Key Press Event Triggered";
+        }
+
+        // onkeyup
+        function keyUpFunction() {
+            document.getElementById("keymsg").innerHTML =
+                "Key Up Event Triggered";
+        }
+
+        // onsubmit
+        function submitFunction() {
+            alert("Form Submitted Successfully");
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="section">
+        <h2>Mouse Events</h2>
+
+        <div class="box"
+             onmouseover="mouseOverFunction()"
+             onmouseout="mouseOutFunction()">
+             Move Mouse Here
+        </div>
+
+        <p id="mousemsg"></p>
+    </div>
+
+    <div class="section">
+        <h2>Keyboard Events</h2>
+
+        <input type="text"
+               placeholder="Type Something"
+               onkeydown="keyDownFunction()"
+               onkeypress="keyPressFunction()"
+               onkeyup="keyUpFunction()">
+
+        <p id="keymsg"></p>
+    </div>
+
+    <div class="section">
+        <h2>Form Submit Event</h2>
+
+        <form onsubmit="submitFunction()">
+            <input type="text" placeholder="Enter Name" required>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>
