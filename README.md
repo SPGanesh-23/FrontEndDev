@@ -34,3 +34,5 @@ Click Here to get into the webpage :
 11. To-Do List - <a href="https://spganesh-23.github.io/FrontEndDev/todo_list.html">Click Here</a>
 <img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/2b3ca6fe-0300-4652-9729-b92af19abc71" />
 <img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/333e2612-466f-4550-b526-6660aca5b54c" />
+
+12. Events - <a href="https://spganesh-23.github.io/FrontEndDev/events.html">Click Here<a>
