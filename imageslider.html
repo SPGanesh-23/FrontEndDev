@@ -100,29 +100,22 @@
     ];
 
     let index = 0;
-
     let sliderImage =
       document.getElementById("sliderImage");
 
     function nextSlide(){
-
       index++;
-
       if(index >= images.length){
         index = 0;
       }
-
       sliderImage.src = images[index];
     }
 
     function prevSlide(){
-
       index--;
-
       if(index < 0){
         index = images.length - 1;
       }
-
       sliderImage.src = images[index];
     }
 
