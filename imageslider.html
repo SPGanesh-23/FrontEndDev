@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Image Slider</title>
+
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    font-family: Arial, sans-serif;
+    }
+
+    .slider{
+    position: relative;
+    width: 720px;
+    padding: 20px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 24px;
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.4),
+        0 0 20px rgba(255,255,255,0.05);
+    text-align: center;
+    }
+    .slider img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 18px;
+    transition: 0.4s ease;
+    }
+
+    .slider img:hover{
+    transform: scale(1.02);
+    }
+
+    .buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    }
+
+    button{
+    padding: 12px 28px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(37,99,235,0.4);
+    }
+
+    button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37,99,235,0.6);
+    }
+
+    button:active{
+    transform: scale(0.95);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="slider">
+
+    <img id="sliderImage"
+         src="https://picsum.photos/id/1015/700/400">
+
+    <br>
+
+    <button onclick="prevSlide()">Previous</button>
+    <button onclick="nextSlide()">Next</button>
+
+  </div>
+
+  <script>
+
+    let images = [
+      "https://picsum.photos/id/1015/700/400",
+      "https://picsum.photos/id/1016/700/400",
+      "https://picsum.photos/id/1018/700/400"
+    ];
+
+    let index = 0;
+
+    let sliderImage =
+      document.getElementById("sliderImage");
+
+    function nextSlide(){
+
+      index++;
+
+      if(index >= images.length){
+        index = 0;
+      }
+
+      sliderImage.src = images[index];
+    }
+
+    function prevSlide(){
+
+      index--;
+
+      if(index < 0){
+        index = images.length - 1;
+      }
+
+      sliderImage.src = images[index];
+    }
+
+  </script>
+
+</body>
+</html>
