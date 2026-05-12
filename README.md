@@ -38,3 +38,5 @@ Click Here to get into the webpage :
 12. Events - <a href="https://spganesh-23.github.io/FrontEndDev/events.html">Click Here<a>
 <img width="1896" height="933" alt="image" src="https://github.com/user-attachments/assets/f9f3b5e2-f160-413b-b219-fbccf78395a8" />
 
+13. Image Slider - <a href="https://spganesh-23.github.io/FrontEndDev/imageslider.html">Click Here<a>
+<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/bfb1d14a-aac0-4339-8f2d-1c9bafd7817c" />
