@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Responsive Page</title>
+
+  <style>
+    :root {
+      --bg: #eef4ff;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --border: rgba(15, 23, 42, 0.08);
+      --radius: 18px;
+      --shadow: 0 18px 60px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1180px;
+      margin: auto;
+      padding: 0 24px;
+    }
+
+    header {
+      background: white;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: var(--radius);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    header h2 {
+      color: var(--primary-dark);
+    }
+
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--muted);
+      padding: 10px 14px;
+      border-radius: 50px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: rgba(37, 99, 235, 0.1);
+      color: var(--primary);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+      padding: 50px 0;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      color: var(--muted);
+      margin-bottom: 25px;
+    }
+
+    button {
+      padding: 14px 28px;
+      border: none;
+      border-radius: 50px;
+      background: var(--primary);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    .hero img {
+      width: 100%;
+      border-radius: 20px;
+      display: block;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+      padding-bottom: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: var(--muted);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      color: var(--muted);
+    }
+
+    @media (max-width: 768px) {
+
+      header {
+        flex-direction: column;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      nav {
+        justify-content: center;
+      }
+
+      .hero-text h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h2>MySite</h2>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+
+      <div class="hero-text">
+        <h1>Simple Responsive Page</h1>
+
+        <p>
+          This is a basic responsive webpage using only HTML and CSS.
+        </p>
+
+        <button>Get Started</button>
+      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop"
+        alt="Laptop workspace"
+      />
+
+    </section>
+
+    <section class="cards">
+
+      <div class="card">
+        <h3>Fast</h3>
+        <p>Simple and fast responsive design.</p>
+      </div>
+
+      <div class="card">
+        <h3>Responsive</h3>
+        <p>Works properly on mobile and desktop.</p>
+      </div>
+
+      <div class="card">
+        <h3>Modern</h3>
+        <p>Clean and modern user interface.</p>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>© 2026 MySite</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
