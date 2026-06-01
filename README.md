@@ -45,8 +45,8 @@ Click Here to get into the webpage :
 <img width="1890" height="967" alt="Screenshot 2026-05-15 021037" src="https://github.com/user-attachments/assets/73db186b-eef5-44be-9441-d565e025e201" />
 <table>
   <tr>
-    <td><img width="598" alt="Screenshot 2026-05-15 021423" src="https://github.com/user-attachments/assets/314ff0b6-87a7-41f0-b12b-e0c7d211adea" /></td>
     <td><img width="600" alt="Screenshot 2026-05-15 021359" src="https://github.com/user-attachments/assets/7de2956d-add8-46e8-87da-a27179c92549" /></td>
+    <td><img width="598" alt="Screenshot 2026-05-15 021423" src="https://github.com/user-attachments/assets/314ff0b6-87a7-41f0-b12b-e0c7d211adea" /></td>    
   </tr>
 </table>
 
