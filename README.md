@@ -40,3 +40,22 @@ Click Here to get into the webpage :
 
 13. Image Slider - <a href="https://spganesh-23.github.io/FrontEndDev/imageslider.html">Click Here<a>
 <img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/bfb1d14a-aac0-4339-8f2d-1c9bafd7817c" />
+
+14. Responsive Webpage - <a href="https://spganesh-23.github.io/FrontEndDev/responsive.html">Click Here<a>
+<img width="1890" height="967" alt="Screenshot 2026-05-15 021037" src="https://github.com/user-attachments/assets/73db186b-eef5-44be-9441-d565e025e201" />
+<img width="598" height="965" alt="Screenshot 2026-05-15 021423" src="https://github.com/user-attachments/assets/314ff0b6-87a7-41f0-b12b-e0c7d211adea" />
+<img width="600" height="969" alt="Screenshot 2026-05-15 021359" src="https://github.com/user-attachments/assets/7de2956d-add8-46e8-87da-a27179c92549" />
+
+15. Bootstrap - <a href="https://spganesh-23.github.io/FrontEndDev/bootstrap.html">Click Here<a>
+<img width="1911" height="875" alt="Screenshot 2026-05-26 005213" src="https://github.com/user-attachments/assets/76ac6954-968e-4c06-9f02-a7c533641425" />
+<img width="602" height="885" alt="Screenshot 2026-05-26 005254" src="https://github.com/user-attachments/assets/8974dd6c-a441-404a-a804-165bdd211d51" />
+<img width="604" height="891" alt="Screenshot 2026-05-26 005313" src="https://github.com/user-attachments/assets/224f42db-38b5-4e96-9d82-1ab320fefd60" />
+
+16. Fontawesom - <a href="https://spganesh-23.github.io/FrontEndDev/fontawesome.html">Click Here<a>
+<img width="1919" height="925" alt="Screenshot 2026-05-27 015048" src="https://github.com/user-attachments/assets/23eb87f1-eb92-4455-a9c1-fe537a4aa84a" />
+
+17. React Layout - <a href="https://spganesh-23.github.io/FrontEndDev/React_layout.jsx">Click Here<a>
+<img width="1026" height="742" alt="Screenshot 2026-06-01 101712" src="https://github.com/user-attachments/assets/0fd37a62-c78f-48ee-bd9d-74e09a519b1f" />
+
+18. React Layout - <a href="https://spganesh-23.github.io/FrontEndDev/React_state_management">Click Here<a>
+<img width="1020" height="725" alt="Screenshot 2026-06-01 101920" src="https://github.com/user-attachments/assets/64666fc0-c5f9-4a64-aca5-86d2516e6bf6" />
