@@ -43,14 +43,22 @@ Click Here to get into the webpage :
 
 14. Responsive Webpage - <a href="https://spganesh-23.github.io/FrontEndDev/responsive.html">Click Here<a>
 <img width="1890" height="967" alt="Screenshot 2026-05-15 021037" src="https://github.com/user-attachments/assets/73db186b-eef5-44be-9441-d565e025e201" />
-<img width="598" height="965" alt="Screenshot 2026-05-15 021423" src="https://github.com/user-attachments/assets/314ff0b6-87a7-41f0-b12b-e0c7d211adea" />
-<img width="600" height="969" alt="Screenshot 2026-05-15 021359" src="https://github.com/user-attachments/assets/7de2956d-add8-46e8-87da-a27179c92549" />
+<table>
+  <tr>
+    <td><img width="598" alt="Screenshot 2026-05-15 021423" src="https://github.com/user-attachments/assets/314ff0b6-87a7-41f0-b12b-e0c7d211adea" /></td>
+    <td><img width="600" alt="Screenshot 2026-05-15 021359" src="https://github.com/user-attachments/assets/7de2956d-add8-46e8-87da-a27179c92549" /></td>
+  </tr>
+</table>
 
 15. Bootstrap - <a href="https://spganesh-23.github.io/FrontEndDev/bootstrap.html">Click Here<a>
 <img width="1911" height="875" alt="Screenshot 2026-05-26 005213" src="https://github.com/user-attachments/assets/76ac6954-968e-4c06-9f02-a7c533641425" />
-<img width="602" height="885" alt="Screenshot 2026-05-26 005254" src="https://github.com/user-attachments/assets/8974dd6c-a441-404a-a804-165bdd211d51" />
-<img width="604" height="891" alt="Screenshot 2026-05-26 005313" src="https://github.com/user-attachments/assets/224f42db-38b5-4e96-9d82-1ab320fefd60" />
-
+<table>
+  <tr>
+    <td><img width="602" height="885" alt="Screenshot 2026-05-26 005254" src="https://github.com/user-attachments/assets/8974dd6c-a441-404a-a804-165bdd211d51" /></td>
+    <td><img width="604" height="891" alt="Screenshot 2026-05-26 005313" src="https://github.com/user-attachments/assets/224f42db-38b5-4e96-9d82-1ab320fefd60" />
+</td>
+  </tr>
+</table>
 16. Fontawesom - <a href="https://spganesh-23.github.io/FrontEndDev/fontawesome.html">Click Here<a>
 <img width="1919" height="925" alt="Screenshot 2026-05-27 015048" src="https://github.com/user-attachments/assets/23eb87f1-eb92-4455-a9c1-fe537a4aa84a" />
 
